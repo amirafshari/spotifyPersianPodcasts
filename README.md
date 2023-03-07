@@ -1,8 +1,4 @@
-
-
 # Libs
-
-
 ```python
 # Recieving Data from Spotify
 import spotipy
@@ -12,24 +8,18 @@ import matplotlib.pyplot as plt
 ```
 
 # API
-
-
 ```python
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id="",
                                                            client_secret=""))
 ```
 
 # Explore
-
-
 ```python
 show = sp.search(q='پادکست', type='show', market='US', offset=0, limit=50)
 #show['shows']['items'][0]
 ```
 
 # Prepare
-
-
 ```python
 names = []
 description = []
